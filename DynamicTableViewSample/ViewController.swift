@@ -74,7 +74,6 @@ extension ViewController: TableViewCellPlusButtonDelegate {
     func didTapTheButton() {
         
         arrayOfContent.insert("textCell", at: arrayOfContent.index(before: arrayOfContent.endIndex))
-        
         tableView.reloadData()
     }
     

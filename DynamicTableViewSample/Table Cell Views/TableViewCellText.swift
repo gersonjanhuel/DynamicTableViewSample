@@ -10,9 +10,12 @@ import UIKit
 
 class TableViewCellText: UITableViewCell {
 
+    @IBOutlet weak var tfBackground: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        tfBackground.layer.cornerRadius = 8
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

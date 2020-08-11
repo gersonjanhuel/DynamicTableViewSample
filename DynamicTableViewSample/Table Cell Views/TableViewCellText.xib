@@ -19,7 +19,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ss-43-gow">
                         <rect key="frame" x="16" y="10" width="288" height="62"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZSB-Eo-9ur">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Write here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZSB-Eo-9ur">
                                 <rect key="frame" x="8" y="4" width="272" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -44,6 +44,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="tfBackground" destination="2Ss-43-gow" id="4xR-MB-ZCV"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
         </tableViewCell>
     </objects>
